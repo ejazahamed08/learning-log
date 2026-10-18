@@ -25,7 +25,8 @@ The five steps:
 2. qrencode :
    brew install qrencode
    qrencode -o website.png "https://example.com"
-   qrencode -t we.png "Hello World"
+   qrencode -t "Hello World"
+   qrencode -o helloworld.png "Hello World"
 
 One thing I want to try next:
   how to make rainbow qr codes and create pdfs from docs
